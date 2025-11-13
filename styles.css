@@ -22,7 +22,18 @@ body {
     font-family: monospace;
     font-size: 15px;
 }
-
+#interests li{
+    font-family: monospace;
+    font-size: 15px;
+}
+#contact_links li, p{
+    font-family: monospace;
+    font-size: 15px;
+}
+#common_footer p{
+    font-family: serif;
+    font-size: medium;
+}
 #pfp {
     border-radius: 50%;
     border: 1px solid #3159e4;
