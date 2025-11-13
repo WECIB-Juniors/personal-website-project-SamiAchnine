@@ -4,7 +4,8 @@
 
 /* COLOR PALETTE
 --text: #eff0f1;
---background: #070808;
+--background: #393f3f;
+--link: #8abff3;
 --primary: #688892;
 --secondary: #324b53;
 --accent: #3e6b79;
@@ -93,6 +94,10 @@ h2 {
     font-family: sans-serif;
     color: #eff0f1;
     margin: 0.25em;
+}
+
+a {
+    color: #8abff3;
 }
 
 
