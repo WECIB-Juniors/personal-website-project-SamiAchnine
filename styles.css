@@ -18,8 +18,38 @@ accent: #c358e9;
 
 .name {
     color: #01030a;   
-    display: inline-block;
     font-family: sans-serif;
+    display: inline-block;
     font-size: 40px;
 }
 
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #b680ee;
+    display: flex;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0;
+    width: 99%;
+}
+
+ul li a{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color: #3159e4;
+}
+
+ul li a.active {
+    background-color: #c358e9;
+}
+
+#top #contact #interests{
+    margin-top: 50px;
+}
