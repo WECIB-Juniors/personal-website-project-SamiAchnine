@@ -9,3 +9,17 @@ primary: #3159e4;
 secondary: #b680ee;
 accent: #c358e9;
 */
+
+#pfp {
+    border-radius: 50%;
+    border: 1px solid #c358e9;
+    width: 65px;
+}
+
+.name {
+    color: #01030a;   
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
