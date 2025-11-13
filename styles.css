@@ -10,17 +10,38 @@ secondary: #b680ee;
 accent: #c358e9;
 */
 
+body {
+    background-color: #f3f5fd;
+}
+
+#skills li{
+    font-family: monospace;
+    font-size: 15px;
+}
+#projects li{
+    font-family: monospace;
+    font-size: 15px;
+}
+
 #pfp {
     border-radius: 50%;
-    border: 1px solid #c358e9;
+    border: 1px solid #3159e4;
     width: 65px;
 }
 
 .name {
-    color: #01030a;   
+    color: #3159e4;   
     font-family: sans-serif;
     display: inline-block;
     font-size: 40px;
+}
+
+hr {
+    height: 7px;
+    color: #c358e9;
+    background-color: #c358e9;
+    font-size: 0;
+    border: 0;
 }
 
 .navbar {
@@ -50,6 +71,10 @@ ul li a.active {
     background-color: #c358e9;
 }
 
-#top #contact #interests{
-    margin-top: 50px;
+h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #01030a;
 }
+
+
