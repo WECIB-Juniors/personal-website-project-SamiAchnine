@@ -3,45 +3,51 @@
 }
 
 /* COLOR PALETTE
-text: #01030a;
-background: #f3f5fd;
-primary: #3159e4;
-secondary: #b680ee;
-accent: #c358e9;
+--text: #eff0f1;
+--background: #070808;
+--primary: #688892;
+--secondary: #324b53;
+--accent: #3e6b79;
+
 */
 
 body {
-    background-color: #f3f5fd;
+    background-color: #393f3f;
 }
 
 #skills li{
     font-family: monospace;
     font-size: 15px;
+    color: #eff0f1;
 }
 #projects li{
     font-family: monospace;
     font-size: 15px;
+    color: #eff0f1;
 }
 #interests li{
     font-family: monospace;
     font-size: 15px;
+    color: #eff0f1;
 }
 #contact_links li, p{
     font-family: monospace;
     font-size: 15px;
+    color: #eff0f1;
 }
 #common_footer p{
     font-family: serif;
     font-size: medium;
+    color: #eff0f1;
 }
 #pfp {
     border-radius: 50%;
-    border: 1px solid #3159e4;
+    border: 1px solid #6b8d97;
     width: 65px;
 }
 
 .name {
-    color: #3159e4;   
+    color: #eff0f1;   
     font-family: sans-serif;
     display: inline-block;
     font-size: 40px;
@@ -49,8 +55,8 @@ body {
 
 hr {
     height: 7px;
-    color: #c358e9;
-    background-color: #c358e9;
+    color: #acc5cd;
+    background-color: #acc5cd;
     font-size: 0;
     border: 0;
 }
@@ -59,7 +65,7 @@ hr {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #b680ee;
+    background-color: #688892;
     display: flex;
     font-family: sans-serif;
     position: fixed;
@@ -75,17 +81,18 @@ ul li a{
 }
 
 ul li a:hover{
-    background-color: #3159e4;
+    background-color: #324b53;
 }
 
 ul li a.active {
-    background-color: #c358e9;
+    background-color: #3e6b79;
 }
 
 h2 {
     font-size: 30px;
     font-family: sans-serif;
-    color: #01030a;
+    color: #eff0f1;
+    margin: 0.25em;
 }
 
 
