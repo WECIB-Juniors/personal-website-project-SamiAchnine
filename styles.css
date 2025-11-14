@@ -31,14 +31,9 @@ body {
     font-size: 15px;
     color: #eff0f1;
 }
-#contact_links li, p{
-    font-family: monospace;
+#contact_links li, p, a{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: #eff0f1;
-}
-#common_footer p{
-    font-family: serif;
-    font-size: medium;
     color: #eff0f1;
 }
 #pfp {
@@ -100,4 +95,7 @@ a {
     color: #8abff3;
 }
 
+a:hover {
+    color: #3e6b79;
+}
 
